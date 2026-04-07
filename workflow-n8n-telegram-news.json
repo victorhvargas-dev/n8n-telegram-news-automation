@@ -1369,7 +1369,7 @@
             {
               "id": "ID",
               "name": "URL",
-              "value": "={{ \"https://api.telegram.org/bot8765344317:AAF6B6hqUJDvFw6kIoaVeyaoC-lfqOLHcXo/getFile?file_id=\" + $json.message.photo[0].file_id }}",
+              "value": "={{ \"https://api.telegram.org/bot<TOKEN_ID>/getFile?file_id=\" + $json.message.photo[0].file_id }}",
               "type": "string"
             }
           ]
