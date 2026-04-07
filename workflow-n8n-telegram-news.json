@@ -225,17 +225,17 @@
       "parameters": {
         "documentId": {
           "__rl": true,
-          "value": "1uwgPEwRj790pDs-GYX6uEYBNmu8Z-hXxWdkOaFmPE1s",
+          "value": "URL_ID",
           "mode": "list",
           "cachedResultName": "NAME_PROJECT",
-          "cachedResultUrl": "https://docs.google.com/spreadsheets/d/1uwgPEwRj790pDs-GYX6uEYBNmu8Z-hXxWdkOaFmPE1s/edit?usp=drivesdk"
+          "value": "URL_ID"
         },
         "sheetName": {
           "__rl": true,
-          "value": "gid=0",
+          "value": "URL_ID",
           "mode": "list",
           "cachedResultName": "NOTICIAS",
-          "cachedResultUrl": "https://docs.google.com/spreadsheets/d/1uwgPEwRj790pDs-GYX6uEYBNmu8Z-hXxWdkOaFmPE1s/edit#gid=0"
+          "value": "URL_ID"
         },
         "filtersUI": {
           "values": [
@@ -476,7 +476,7 @@
             {
               "id": "ID",
               "name": "data.Noticia",
-              "value": "={{ $json.data.Noticia }}",
+              "value": "URL_ID",
               "type": "string"
             }
           ]
@@ -497,17 +497,17 @@
         "operation": "append",
         "documentId": {
           "__rl": true,
-          "value": "1uwgPEwRj790pDs-GYX6uEYBNmu8Z-hXxWdkOaFmPE1s",
+          "value": "URL_ID",
           "mode": "list",
           "cachedResultName": "NAME_PROJECT",
-          "cachedResultUrl": "https://docs.google.com/spreadsheets/d/1uwgPEwRj790pDs-GYX6uEYBNmu8Z-hXxWdkOaFmPE1s/edit?usp=drivesdk"
+          "value": "URL_ID"
         },
         "sheetName": {
           "__rl": true,
-          "value": "gid=0",
+          "value": "URL_ID",
           "mode": "list",
           "cachedResultName": "NOTICIAS",
-          "cachedResultUrl": "https://docs.google.com/spreadsheets/d/1uwgPEwRj790pDs-GYX6uEYBNmu8Z-hXxWdkOaFmPE1s/edit#gid=0"
+          "value": "URL_ID"
         },
         "columns": {
           "mappingMode": "defineBelow",
@@ -714,7 +714,7 @@
             {
               "id": "ID",
               "name": "IdNoticia",
-              "value": "={{ $('Get row(s) in sheet').item.json.IdNoticia }}",
+              "value": "URL_ID",
               "type": "string"
             }
           ]
@@ -735,17 +735,17 @@
         "operation": "update",
         "documentId": {
           "__rl": true,
-          "value": "1uwgPEwRj790pDs-GYX6uEYBNmu8Z-hXxWdkOaFmPE1s",
+          "value": "URL_ID",
           "mode": "list",
           "cachedResultName": "NAME_PROJECT",
-          "cachedResultUrl": "https://docs.google.com/spreadsheets/d/1uwgPEwRj790pDs-GYX6uEYBNmu8Z-hXxWdkOaFmPE1s/edit?usp=drivesdk"
+          "value": "URL_ID"
         },
         "sheetName": {
           "__rl": true,
-          "value": "gid=0",
+          "value": "URL_ID",
           "mode": "list",
           "cachedResultName": "NOTICIAS",
-          "cachedResultUrl": "https://docs.google.com/spreadsheets/d/1uwgPEwRj790pDs-GYX6uEYBNmu8Z-hXxWdkOaFmPE1s/edit#gid=0"
+          "value": "URL_ID"
         },
         "columns": {
           "mappingMode": "defineBelow",
@@ -889,19 +889,19 @@
             {
               "id": "ID",
               "name": "Noticia",
-              "value": "={{ $json.Noticia }}",
+              "value": "URL_ID",
               "type": "string"
             },
             {
               "id": "ID",
               "name": "IdChatNoticia",
-              "value": "={{ $json.IdChat }}",
+              "value": "URL_ID",
               "type": "number"
             },
             {
               "id": "ID",
               "name": "IdChatMensaje",
-              "value": "={{ $('Telegram Trigger').item.json.message.from.id }}",
+              "value": "URL_ID",
               "type": "number"
             }
           ]
@@ -921,17 +921,17 @@
       "parameters": {
         "documentId": {
           "__rl": true,
-          "value": "1uwgPEwRj790pDs-GYX6uEYBNmu8Z-hXxWdkOaFmPE1s",
+          "value": "URL_ID",
           "mode": "list",
           "cachedResultName": "NAME_PROJECT",
-          "cachedResultUrl": "https://docs.google.com/spreadsheets/d/1uwgPEwRj790pDs-GYX6uEYBNmu8Z-hXxWdkOaFmPE1s/edit?usp=drivesdk"
+          "value": "URL_ID"
         },
         "sheetName": {
           "__rl": true,
-          "value": "gid=0",
+          "value": "URL_ID",
           "mode": "list",
           "cachedResultName": "NOTICIAS",
-          "cachedResultUrl": "https://docs.google.com/spreadsheets/d/1uwgPEwRj790pDs-GYX6uEYBNmu8Z-hXxWdkOaFmPE1s/edit#gid=0"
+          "value": "URL_ID"
         },
         "filtersUI": {
           "values": [
@@ -969,25 +969,25 @@
             {
               "id": "ID",
               "name": "Noticia",
-              "value": "={{ $json.Noticia }}",
+              "value": "URL_ID",
               "type": "string"
             },
             {
               "id": "ID",
               "name": "message.from.id",
-              "value": "={{ $('Telegram Trigger').item.json.message.from.id }}",
+              "value": "URL_ID",
               "type": "number"
             },
             {
               "id": "ID",
               "name": "Tipo",
-              "value": "={{ $json.Tipo }}",
+              "value": "URL_ID",
               "type": "number"
             },
             {
               "id": "ID",
               "name": "Archivo",
-              "value": "={{ $json.Archivo }}",
+              "value": "URL_ID",
               "type": "string"
             }
           ]
@@ -1075,31 +1075,31 @@
             {
               "id": "ID",
               "name": "Nombre",
-              "value": "={{ $json.Nombre }}",
+              "value": "URL_ID",
               "type": "string"
             },
             {
               "id": "ID",
               "name": "Producto",
-              "value": "={{ $json.Producto }}",
+              "value": "URL_ID",
               "type": "string"
             },
             {
               "id": "ID",
               "name": "PrecioVigente",
-              "value": "={{ $json.PrecioVigente }}",
+              "value": "URL_ID",
               "type": "number"
             },
             {
               "id": "ID",
               "name": "Direccion",
-              "value": "={{ $json.Direccion }}",
+              "value": "URL_ID",
               "type": "string"
             },
             {
               "id": "ID",
               "name": "SubProducto",
-              "value": "={{ $json.SubProducto }}",
+              "value": "URL_ID",
               "type": "string"
             }
           ]
@@ -1233,31 +1233,31 @@
             {
               "id": "ID",
               "name": "Nombre",
-              "value": "={{ $json.Nombre }}",
+              "value": "URL_ID",
               "type": "string"
             },
             {
               "id": "ID",
               "name": "Producto",
-              "value": "={{ $json.Producto }}",
+              "value": "URL_ID",
               "type": "string"
             },
             {
               "id": "ID",
               "name": "PrecioVigente",
-              "value": "={{ $json.PrecioVigente }}",
+              "value": "URL_ID",
               "type": "number"
             },
             {
               "id": "ID",
               "name": "Direccion",
-              "value": "={{ $json.Direccion }}",
+              "value": "URL_ID",
               "type": "string"
             },
             {
               "id": "ID",
               "name": "SubProducto",
-              "value": "={{ $json.SubProducto }}",
+              "value": "URL_ID",
               "type": "string"
             }
           ]
@@ -1363,13 +1363,13 @@
             {
               "id": "ID",
               "name": "message.photo[0].file_id",
-              "value": "={{ $json.message.photo[0].file_id }}",
+              "value": "URL_ID",
               "type": "string"
             },
             {
               "id": "ID",
               "name": "URL",
-              "value": "={{ \"https://api.telegram.org/bot<TOKEN_ID>/getFile?file_id=\" + $json.message.photo[0].file_id }}",
+              "value": "URL_ID"https://api.telegram.org/bot<TOKEN_ID>/getFile?file_id=\" + $json.message.photo[0].file_id }}",
               "type": "string"
             }
           ]
@@ -1390,17 +1390,17 @@
         "operation": "append",
         "documentId": {
           "__rl": true,
-          "value": "1uwgPEwRj790pDs-GYX6uEYBNmu8Z-hXxWdkOaFmPE1s",
+          "value": "URL_ID",
           "mode": "list",
           "cachedResultName": "NAME_PROJECT",
-          "cachedResultUrl": "https://docs.google.com/spreadsheets/d/1uwgPEwRj790pDs-GYX6uEYBNmu8Z-hXxWdkOaFmPE1s/edit?usp=drivesdk"
+          "value": "URL_ID"
         },
         "sheetName": {
           "__rl": true,
-          "value": "gid=0",
+          "value": "URL_ID",
           "mode": "list",
           "cachedResultName": "NOTICIAS",
-          "cachedResultUrl": "https://docs.google.com/spreadsheets/d/1uwgPEwRj790pDs-GYX6uEYBNmu8Z-hXxWdkOaFmPE1s/edit#gid=0"
+          "value": "URL_ID"
         },
         "columns": {
           "mappingMode": "defineBelow",
